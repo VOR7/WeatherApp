@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/lightblues"
+    tools:context=".Emergency">
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/sos"></ImageView>
+
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
+        android:text="Fire and Rescue Service"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/disaster"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="Disaster Management "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/ambulance"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="Ambulance service"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp">
+
+    </Button>
+
+</LinearLayout>
